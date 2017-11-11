@@ -288,7 +288,7 @@ public class MainActivity extends AppCompatActivity {
 - transaction.show() 显示之前隐藏的Fragment
 - detach() 会将view从UI中移除,和remove()不同,此时fragment的状态依然由FragmentManager维护
 - attach() 重建view视图，附加到UI上并显示
-- ransatcion.commit() 提交事务
+- transatcion.commit() 提交事务
 
 注意：在add/replace/hide/show以后都要commit其效果才会在屏幕上显示出来
 
